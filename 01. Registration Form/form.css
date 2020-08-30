@@ -1,0 +1,146 @@
+
+/* The message box is shown when the user clicks on the password field */
+ #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+ #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: powderblue;
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+  }
+
+  .regform{
+    width:800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color:#FFFFFF;
+    padding:10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .main{
+    background-color:rgb(0, 0, 0,0.5);
+    width: 800px;
+    margin: auto;
+  }
+  form{
+    padding:10px ;
+  }
+  #box{
+    width: 100%;
+  }
+  .labelname{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+  }
+  .nameclass{
+    position: relative;
+    left: 40px;
+    top: 0px;
+    line-height: 40px;
+    width: 450px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+  }
+  .option{
+    position: relative;
+    left: 5px;
+    top:0px;
+    line-height: 40px;
+    width: 497px;
+    height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+  }
+  #gendercss{
+    margin-left:25px;
+    color : white;
+    font-size:18px;
+    margin-right: 50px;
+  }
+
+  .radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color:white;
+  }
+
+  .radio input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor : pointer;
+    outline: none;
+  }
+  .list{
+    margin-left: 150px;
+    color: white;
+  }
+
+  .k{
+     left:45px;
+  }
+  .Z{
+     left: 17px;
+  }
+  .E{
+     left: 52px;
+  }
+  span{
+    color: rgb(238, 28, 28);
+    margin-left: 145px;
+  }
